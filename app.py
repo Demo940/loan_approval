@@ -16,6 +16,7 @@ with open(MODEL_PATH, "rb") as model_file:
     model = pickle.load(model_file)
 
 
+
 # Step 3: Load the scaler from "scaler.pkl".
 with open(SCALER_PATH, "rb") as scaler_file:
     scaler = pickle.load(scaler_file)
